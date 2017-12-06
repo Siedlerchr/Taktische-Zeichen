@@ -7,7 +7,7 @@ var async = require('async');
 
 var Handlebars = require('handlebars');
 
-var action = "create-svgs"
+var action = "create-svgs";
 var config = JSON.parse(fs.readFileSync(process.argv[2]));
 
 if(process.argv.length == 4) {
@@ -93,7 +93,7 @@ function renderAll() {
 						{ filename: job.png512File, factor: "50%" },
 						{ filename: job.png256File, factor: "25%" },
 						{ filename: job.png128File, factor: "12.5%" },
-						{ filename: job.png64File, factor: "6.25%" }
+						{ filename: job.png64File, factor: "12.5%" }
 						],
 						function(resizeJob, resizeFinished) {
 							console.log("Resizing " + job.pngFile + " by " + resizeJob.factor + " to " + resizeJob.filename);
