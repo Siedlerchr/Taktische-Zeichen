@@ -24,6 +24,9 @@ switch(action) {
 }
 
 function renderAll() {
+	if (!fs.existsSync(path.join(__dirname, "64x64"))) {
+		fs.mkdirSync(path.join(__dirname, "64x64"));
+	}
 	if (!fs.existsSync(path.join(__dirname, "128x128"))) {
 		fs.mkdirSync(path.join(__dirname, "128x128"));
 	}
@@ -56,6 +59,9 @@ function renderAll() {
 		if(!fs.existsSync(path.join(__dirname, '128x128', set.name))) {
 			fs.mkdirSync(path.join(__dirname, '128x128', set.name));
 		}
+		if(!fs.existsSync(path.join(__dirname, '64x64', set.name))) {
+			fs.mkdirSync(path.join(__dirname, '64x64', set.name));
+		}
 
 		for(var x = 0; x < set.symbols.length; x++) {
 			var symbol = set.symbols[x];
@@ -67,7 +73,9 @@ function renderAll() {
 					pngFile: path.join(__dirname, '1024x1024', set.name, symbol.variants[variant] + ".png"),
 					png512File: path.join(__dirname, '512x512', set.name, symbol.variants[variant] + ".png"),
 					png256File: path.join(__dirname, '256x256', set.name, symbol.variants[variant] + ".png"),
-					png128File: path.join(__dirname, '128x128', set.name, symbol.variants[variant] + ".png")
+					png128File: path.join(__dirname, '128x128', set.name, symbol.variants[variant] + ".png"),
+					png64File: path.join(__dirname, '64x64', set.name, symbol.variants[variant] + ".png")
+
 				});
 			}
 		}
@@ -84,7 +92,8 @@ function renderAll() {
 					async.eachSeries([
 						{ filename: job.png512File, factor: "50%" },
 						{ filename: job.png256File, factor: "25%" },
-						{ filename: job.png128File, factor: "12.5%" }
+						{ filename: job.png128File, factor: "12.5%" },
+						{ filename: job.png64File, factor: "6.25%" }
 						],
 						function(resizeJob, resizeFinished) {
 							console.log("Resizing " + job.pngFile + " by " + resizeJob.factor + " to " + resizeJob.filename);
@@ -96,7 +105,8 @@ function renderAll() {
 						async.eachSeries([
 							{ filename: job.png512File },
 							{ filename: job.png256File },
-							{ filename: job.png128File }
+							{ filename: job.png128File },
+							{ filename: job.png64File }
 							],
 							function(optimizeJob, optimizeFinished) {
 								console.log("Optimizing " + optimizeJob.filename);
