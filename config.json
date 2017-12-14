@@ -1115,6 +1115,14 @@
           "variants": {
             "zugführer_löschzug": "Zugführer Löschzug"
           }
+        },
+        {
+          "name": "Firefigher",
+          "template": "Person.svg",
+          "variants":{
+            "singlefirefighter": "Firefighter"
+
+          }
         }
       ]
     },
