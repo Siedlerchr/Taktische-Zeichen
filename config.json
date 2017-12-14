@@ -515,6 +515,14 @@
           "variants": {
             "wechselladerfahrzeug": "Wechselladerfahrzeug"
           }
+        },
+        {
+          "name": "BHC",
+          "template": "Luftfahrzeug_Farbe.svg",
+          "unit": "BHC",
+          "variants": {
+            "hubschrauber": "BHC"
+          }
         }
       ]
     },
@@ -827,6 +835,14 @@
           "arzt": "true",
           "variants": {
             "two_wheels": "Notarztwagen"
+          }
+        },
+        {
+          "name": "RHC",
+          "template": "Luftfahrzeug_Farbe.svg",
+          "unit": "RHC",
+          "variants": {
+            "hubschrauber": "RHC"
           }
         }
       ]
@@ -1655,12 +1671,30 @@
           "variants": {
             "bpol": "Einheit des Zoll"
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "Polizei Fahrzeuge",
+      "color_primary": "#13A538",
+      "color_secondary": "#000000",
+      "stroke_color": "#000000",
+      "color_text": "#000000",
+      "symbols": [
         {
           "name": "PHC",
           "template": "Luftfahrzeug_Farbe.svg",
+          "unit": "PHC",
           "variants": {
             "hubschrauber": "PHC"
+          }
+        },
+        {
+          "name": "SEK",
+          "template": "Luftfahrzeug_Farbe.svg",
+          "unit": "SEK",
+          "variants": {
+            "hubschrauber": "SEK"
           }
         }
       ]
