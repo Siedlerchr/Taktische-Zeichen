@@ -523,6 +523,14 @@
           "variants": {
             "hubschrauber": "BHC"
           }
+        },
+        {
+          "name": "Abschleppfahrzeug",
+          "template": "Fahrzeug.svg",
+          "unit": "ASF",
+          "variants": {
+            "two_wheels": "ASF"
+          }
         }
       ]
     },
@@ -957,6 +965,21 @@
           "variants": {
             "anhänger": "Feuerwehranhänger"
           }
+        },
+        {
+          "name": "FirefighersDrone",
+          "template": "DrohneV11_Plain.svg",
+          "unit": "FW",
+          "variants": {
+            "": "FW"
+          }
+        },
+        {
+          "name": "Dekon-P",
+          "template": "Fahrzeug.svg",
+          "variants": {
+            "dekonp": "Dekon-P"
+          }
         }
       ]
     },
@@ -1106,7 +1129,6 @@
       "color_primary": "#FF0000",
       "color_secondary": "#FFFFFF",
       "stroke_color": "#000000",
-      "color_text": "#FFFFFF",
       "organization": "",
       "symbols": [
         {
@@ -1121,6 +1143,13 @@
           "template": "Person.svg",
           "variants": {
             "singlefirefighter": "Firefighter"
+          }
+        },
+        {
+          "name": "FirefigherABC",
+          "template": "Person.svg",
+          "variants": {
+            "singlefirefighterabc": "FirefighterABC"
           }
         }
       ]
@@ -1701,7 +1730,31 @@
           "template": "Luftfahrzeug_Farbe.svg",
           "unit": "SEK",
           "variants": {
-            "hubschrauber": "SEK"
+            "hubschrauber": "SEKHC"
+          }
+        },
+        {
+          "name": "SEKDrone",
+          "template": "DrohneV11_Plain.svg",
+          "unit": "SEK",
+          "variants": {
+            "": "SEKDR"
+          }
+        },
+        {
+          "name": "STW",
+          "template": "Fahrzeug.svg",
+          "unit": "STW",
+          "variants": {
+            "two_wheels": "STW"
+          }
+        },
+        {
+          "name": "MTW",
+          "template": "Fahrzeug.svg",
+          "unit": "MTW",
+          "variants": {
+            "two_wheels": "MTW"
           }
         }
       ]
