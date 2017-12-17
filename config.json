@@ -677,6 +677,13 @@
             "gruppenführer": "Gruppenführer Verpflegung",
             "truppführer": "Truppführer Verpflegung"
           }
+        },
+        {
+          "name": "Rettunshund",
+          "template": "Person.svg",
+          "variants": {
+            "rettungshund": "ResuceDog"
+          }
         }
       ]
     },
@@ -988,6 +995,13 @@
             "flugzeugkf": "KF",
             "divertft": "TFT",
             "tfdr": "TFD"
+          }
+        },
+        {
+          "name": "TFMB",
+          "template": "Fahrzeug.svg",
+          "variants": {
+            "tfmb": "TFMB"
           }
         }
       ]
@@ -1788,6 +1802,14 @@
           "variants": {
             "tfdr": "TFSEKD"
           }
+        },
+        {
+          "name": "TFSEKRoboto",
+          "template": "Fahrzeug.svg",
+          "unit": "TSEKR",
+          "variants": {
+            "two_wheels": "TSEKR"
+          }
         }
       ]
     },
@@ -1811,6 +1833,14 @@
           "unit": "SEK",
           "variants": {
             "police": "PoliceSEK"
+          }
+        },
+        {
+          "name": "PolicemanSEK",
+          "template": "Person.svg",
+          "unit": "SEKRobot",
+          "variants": {
+            "police": "SEKRobot"
           }
         }
       ]
