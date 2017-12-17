@@ -971,7 +971,7 @@
           "template": "DrohneV11_Plain.svg",
           "unit": "FW",
           "variants": {
-            "": "FW"
+            "": "FirefightersDrone"
           }
         },
         {
@@ -1150,6 +1150,13 @@
           "template": "Person.svg",
           "variants": {
             "singlefirefighterabc": "FirefighterABC"
+          }
+        },
+        {
+          "name": "FirefigherABC",
+          "template": "Wasserrettung_modded.svg",
+          "variants": {
+            "wasserrettung": "FirefightersDiver"
           }
         }
       ]
@@ -1783,10 +1790,12 @@
         {
           "name": "PolicemanSEK",
           "template": "Person.svg",
+          "unit": "SEK",
           "variants": {
-            "person": "PoliceSekman"
+            "police": "PoliceSEK"
           }
         }
+
       ]
     }
   ]
