@@ -94,6 +94,103 @@
 	{{/if}}
 
 
+	{{#if flugzeugkf}}
+	<text font-family="Roboto Slab Bold" font-size="150%" fill="{{ color_text }}" dominant-baseline="central" text-anchor="left" x="20" y="128">KF</text>
+	 <path
+     id="path4"
+     d="m 131.52542,135.37452 0,44.65938"
+     style="fill:none;stroke:#000000;stroke-width:4.31370783" />
+  <path
+     id="path6"
+     d="m 141.52542,150.26098 44.00001,0 a 10,7.44323 0 0 1 0,14.88646 l -44.00001,0 a 10,7.44323 0 1 1 0,-14.88646 z"
+     style="fill:none;stroke:#000000;stroke-width:4.31370783" />
+  <path
+     id="path8"
+     d="m 77.525422,150.26098 43.999998,0 a 10,7.44323 0 0 1 0,14.88646 l -43.999998,0 a 10,7.44323 0 1 1 0,-14.88646 z"
+     style="fill:none;stroke:#000000;stroke-width:4.31370783" />
+
+	<ellipse cx="40" cy="196" rx="10" ry="10" stroke="{{ stroke_color }}" fill="none" stroke-width="5" clip-path="url(#wheels)" />
+	<ellipse cx="216" cy="196" rx="10" ry="10" stroke="{{ stroke_color }}" fill="none" stroke-width="5" clip-path="url(#wheels)" />
+	{{/if}}
+
+	{{#if divertft}}
+		<text font-family="Roboto Slab Bold" font-size="150%" fill="{{ color_text }}" dominant-baseline="central" text-anchor="left" x="20" y="128">TFT</text>
+	  <path
+	     d="m 165.53378,178.51314 c 0,0 0.34098,-15.00652 -12.08618,-15.74111 -12.48669,-0.73937 -13.23364,8.1806 -13.23364,8.1806 0,0 -0.38968,7.58436 -10.3704,7.58436 -9.98071,0 -10.70056,-7.51757 -10.70056,-7.51757 0,0 -2.48975,-8.53837 -13.96431,-8.23311 -12.622025,0.32915 -12.714038,15.82224 -12.714038,15.82224"
+	     id="path8"
+	     style="fill:none;stroke:#000000;stroke-width:4.92938328" />
+	  <path
+	     d="m 165.53378,159.24627 c 0,0 0.34098,-15.00651 -12.08617,-15.74113 -12.48671,-0.73936 -13.23363,8.18063 -13.23363,8.18063 0,0 -0.38971,7.58436 -10.37041,7.58436 -9.98071,0 -10.70058,-7.51759 -10.70058,-7.51759 0,0 -2.48974,-8.53838 -13.9643,-8.23309 -12.622028,0.32912 -12.714038,15.82222 -12.714038,15.82222"
+	     id="path8-3"
+	     style="fill:none;stroke:#000000;stroke-width:4.92938328" />
+
+		
+	<ellipse cx="40" cy="196" rx="10" ry="10" stroke="{{ stroke_color }}" fill="none" stroke-width="5" clip-path="url(#wheels)" />
+	<ellipse cx="216" cy="196" rx="10" ry="10" stroke="{{ stroke_color }}" fill="none" stroke-width="5" clip-path="url(#wheels)" />
+
+	{{/if}}
+
+
+	{{#if tfdr}}
+	<text font-family="Roboto Slab Bold" font-size="150%" fill="{{ color_text }}" dominant-baseline="central" text-anchor="left" x="20" y="128">{{ custom }}</text>
+<path
+     style="fill:none;stroke:#000000;stroke-width:1.31629848"
+     id="path17"
+     d="m 79.295833,136.93729 15.989433,0 a 3.6339631,1.907166 0 0 1 0,3.81433 l -15.989433,0 a 3.6339631,1.907166 0 1 1 0,-3.81433 z" />
+  <path
+     d="m 99.382772,138.03016 c -0.400617,-0.0778 -0.290245,1.83607 -1.314037,2.31927 -2.584422,-0.24291 -1.445979,0.83425 -1.046929,1.79265 1.797368,2.96941 0.936323,6.34188 4.011064,9.09829 1.88317,1.7973 6.10893,1.74082 9.49269,1.65231 4.18459,-0.69387 3.90912,1.28389 3.74968,2.78932 -5.34431,0.0176 -9.7695,2.08918 -12.25145,4.42805 -4.664051,4.17285 -3.771043,9.16191 -3.726712,13.80246 0.670522,2.31396 -1.462873,4.9468 1.15032,7.0212 1.106392,0.27536 2.035012,-0.36461 2.243202,-0.86388 0.15324,-3.09649 0.0894,-6.1943 0.10627,-9.29144 -0.18955,-3.59132 0.0996,-7.61316 5.06085,-10.38995 2.26669,-1.17909 6.31809,-2.71642 9.37349,-1.41842 1.61413,2.28037 6.60106,2.66238 10.71482,2.29136 4.92831,0.86058 5.37559,-2.76508 9.38066,-2.80139 5.96222,0.46524 9.72579,3.40774 11.00204,6.29388 1.24485,2.96755 0.61226,6.04894 0.80136,9.0666 0.34745,2.16482 -0.69296,4.4763 0.42078,6.54361 3.62657,1.86027 3.33552,-2.18566 3.13647,-3.33632 -0.40619,-4.67634 1.07284,-9.47613 -1.45191,-14.04238 -1.92529,-3.39023 -6.67691,-7.00376 -13.96761,-7.26943 -1.18137,-0.74667 -1.4078,-3.35667 1.38871,-2.81723 4.18795,0.1006 9.55779,0.35466 11.74452,-2.03485 2.22569,-2.98691 2.23995,-6.27039 3.34901,-9.3978 2.15531,-1.45519 -3.63778,-1.52688 -2.07805,-2.77046 0.16583,-0.22621 0.04,-0.99643 -0.33318,-0.23464 -1.07103,2.11444 -1.7379,10.11559 -5.6195,11.54205 -10.00643,0.10402 -20.01438,0.0562 -30.02189,0.0453 -3.7494,-0.35013 -8.87939,0.88276 -11.4458,-1.0095 -1.60545,-3.31929 -2.04969,-6.77191 -3.237,-10.14022 -0.307801,-0.59524 -0.498336,-0.84249 -0.631879,-0.86841 z"
+     id="path12370"
+     style="fill:#000000;stroke-width:0.094;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     id="path5707"
+     d="m 128.93966,158.41456 c 3.82225,-1.06085 3.11939,-3.593 3.175,-5.51332 l -14.26431,0 c 0.0762,1.91986 -0.71704,4.4308 3.10425,5.50247 2.58012,0.19039 5.37644,0.11825 7.98506,0.0114 z"
+     style="fill:#000000;stroke-width:0.094;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.31629848"
+     id="path17-4"
+     d="m 154.72218,137.08775 15.98943,0 a 3.6339629,1.907166 0 0 1 0,3.81433 l -15.98943,0 a 3.6339629,1.907166 0 1 1 0,-3.81433 z" />
+  <rect
+     y="136.03899"
+     x="102.75058"
+     height="2.7444921"
+     width="15.94191"
+     id="rect9556"
+     style="opacity:0.5;fill:none;fill-opacity:1;stroke:none;stroke-width:0.094;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     y="136.32111"
+     x="102.75058"
+     height="1.7259684"
+     width="15.373184"
+     id="rect9558"
+     style="opacity:0.5;fill:none;fill-opacity:1;stroke:none;stroke-width:0.094;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     y="136.63388"
+     x="103.05563"
+     height="2.1495974"
+     width="14.149423"
+     id="rect11022"
+     style="opacity:0.5;fill:none;fill-opacity:1;stroke:none;stroke-width:0.094;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     y="136.16002"
+     x="104.23801"
+     height="1.9791101"
+     width="15.329435"
+     id="rect11024"
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.094;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     y="136.32109"
+     x="129.57697"
+     height="1.9791101"
+     width="15.329435"
+     id="rect11024-3"
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.094;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+
+	<ellipse cx="40" cy="196" rx="10" ry="10" stroke="{{ stroke_color }}" fill="none" stroke-width="5" clip-path="url(#wheels)" />
+	<ellipse cx="216" cy="196" rx="10" ry="10" stroke="{{ stroke_color }}" fill="none" stroke-width="5" clip-path="url(#wheels)" />
+	{{/if}}
+
+
+
 
 	{{#if ruestwagen}}
 	<text font-family="Roboto Slab Bold" font-size="150%" fill="{{ color_text }}" dominant-baseline="text-before-edge" text-anchor="start" x="22" y="95">RW</text>

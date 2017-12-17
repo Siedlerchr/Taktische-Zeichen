@@ -971,7 +971,7 @@
           "template": "DrohneV11_Plain.svg",
           "unit": "FW",
           "variants": {
-            "": "FirefightersDrone"
+            "drone": "FirefightersDrone"
           }
         },
         {
@@ -979,6 +979,15 @@
           "template": "Fahrzeug.svg",
           "variants": {
             "dekonp": "Dekon-P"
+          }
+        },
+        {
+          "name": "KF",
+          "template": "Fahrzeug.svg",
+          "variants": {
+            "flugzeugkf": "KF",
+            "divertft": "TFT",
+            "tfdr": "TFD"
           }
         }
       ]
@@ -1028,8 +1037,8 @@
         },
         {
           "name": "TEL",
-          "template": "Führungsstelle.svg",
           "unit": "TEL",
+          "template": "Führungsstelle.svg",
           "variants": {
             "führungsstelle": "TEL"
           }
@@ -1406,7 +1415,7 @@
             "none": "Gebäude",
             "hospital": "Krankenhaus",
             "unterkunft": "Unterkunft",
-            "brand" : "Brand"
+            "brand": "Brand"
           }
         }
       ]
@@ -1771,6 +1780,14 @@
           "variants": {
             "two_wheels": "MTW"
           }
+        },
+        {
+          "name": "TFSEKD",
+          "template": "Fahrzeug.svg",
+          "custom": "TFSEKD",
+          "variants": {
+            "tfdr": "TFSEKD"
+          }
         }
       ]
     },
@@ -1796,7 +1813,6 @@
             "police": "PoliceSEK"
           }
         }
-
       ]
     }
   ]
