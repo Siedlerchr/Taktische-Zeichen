@@ -1153,8 +1153,8 @@
           }
         },
         {
-          "name": "FirefigherABC",
-          "template": "Wasserrettung_modded.svg",
+          "name": "FirefighersDiver",
+          "template": "Wasserrettung_innen.svg",
           "variants": {
             "wasserrettung": "FirefightersDiver"
           }
@@ -1405,7 +1405,8 @@
           "variants": {
             "none": "Gebäude",
             "hospital": "Krankenhaus",
-            "unterkunft": "Unterkunft"
+            "unterkunft": "Unterkunft",
+            "brand" : "Brand"
           }
         }
       ]
