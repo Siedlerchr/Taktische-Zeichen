@@ -315,6 +315,14 @@
           }
         },
         {
+          "name": "Engineer",
+          "template": "Person.svg",
+          "unit": "E",
+          "variants": {
+            "truppführer_thw": "Engineer"
+          }
+        },
+        {
           "name": "Kraftfahrer",
           "template": "Person.svg",
           "unit": "KF",
@@ -381,11 +389,27 @@
           }
         },
         {
+          "name": "BFZ",
+          "template": "Fahrzeug.svg",
+          "unit": "BFZ",
+          "variants": {
+            "three_wheels": "BFZ"
+          }
+        },
+        {
           "name": "Führungskraftwagen",
           "template": "Fahrzeug.svg",
           "unit": "FüKW",
           "variants": {
             "two_wheels": "Führungskraftwagen"
+          }
+        },
+        {
+          "name": "EKW",
+          "template": "Fahrzeug.svg",
+          "unit": "EKW",
+          "variants": {
+            "two_wheels": "EKW"
           }
         },
         {
@@ -567,6 +591,15 @@
           "variants": {
             "gebäude": "Feuerwehrgerätehaus"
           }
+        },
+        {
+          "name": "Custom_1",
+          "color_primary": "none",
+          "template": "Gebäude.svg",
+          "unit": "Fw",
+          "variants": {
+            "gebäude": "CUSTOM_1"
+          }
         }
       ]
     },
@@ -681,8 +714,13 @@
         {
           "name": "Rettunshund",
           "template": "Person.svg",
+          "color_primary": "#FFFFFF",
+          "color_secondary": "#000000",
+          "text_color": "#000000",
+          "stroke_color": "#000000",
+          "rettungshund": true,
           "variants": {
-            "rettungshund": "ResuceDog"
+            "truppführer": "RescuedogLeader"
           }
         }
       ]
@@ -1172,7 +1210,7 @@
           "name": "FirefigherABC",
           "template": "Person.svg",
           "variants": {
-            "singlefirefighterabc": "FirefighterABC"
+            "abc": "FirefighterABC"
           }
         },
         {
@@ -1201,7 +1239,9 @@
             "hazardous_materials": "Akute Gefahr durch gefährliche Stoffe",
             "suffocation": "Akute Gefahr durch Luftmangel",
             "gas": "Akute Gefahr durch Gas",
-            "unspecified": "Akute Gefahr"
+            "unspecified": "Akute Gefahr",
+            "chemical": "CONTAMINATION_CHEMICAL",
+            "biological": "CONTAMINATION_BIOLOGICAL"
           }
         },
         {
@@ -1292,7 +1332,8 @@
             "moved": "Transportierte Person",
             "saved": "Gerettete Person",
             "special_function": "Person mit Sonderfunktion",
-            "person": "Person"
+            "person": "Person",
+            "abc": "PERSON_CONTAMINATED"
           }
         },
         {
@@ -1379,7 +1420,8 @@
             "rail": "Schienenfahrzeug",
             "container": "Abrollbehälter, Container",
             "trailer": "Anhänger",
-            "none": "Fahrzeug"
+            "none": "Fahrzeug",
+            "defekt": "VEHICLE_DEFECT"
           }
         },
         {
@@ -1429,7 +1471,8 @@
             "none": "Gebäude",
             "hospital": "Krankenhaus",
             "unterkunft": "Unterkunft",
-            "brand": "Brand"
+            "brand": "Brand",
+            "trapped": "Trapped"
           }
         }
       ]
@@ -1776,7 +1819,15 @@
           "template": "DrohneV11_Plain.svg",
           "unit": "SEK",
           "variants": {
-            "": "SEKDR"
+            "sek": "SEKDR",
+          }
+        },
+        {
+          "name": "PoliceDrone",
+          "template": "DrohneV11_Plain.svg",
+          "unit": "PolD",
+          "variants": {
+            "pol": "PoliceDrone"
           }
         },
         {
@@ -1810,6 +1861,14 @@
           "variants": {
             "two_wheels": "TSEKR"
           }
+        },
+        {
+          "name": "UNIT_VEHICLE_POLICE",
+          "template": "Fahrzeug.svg",
+          "unit": "POL",
+          "variants": {
+            "two_wheels": "UNIC_VEHICLE_POLICE"
+          }
         }
       ]
     },
@@ -1838,9 +1897,16 @@
         {
           "name": "PolicemanSEK",
           "template": "Person.svg",
-          "unit": "SEKRobot",
+          "unit": "SEKR",
           "variants": {
-            "police": "SEKRobot"
+            "police": "SEKR"
+          }
+        },
+        {
+          "name": "PoliceDog",
+          "template": "Person.svg",
+          "variants": {
+            "rettungshund": "UNIT_POLICE_DOG"
           }
         }
       ]
