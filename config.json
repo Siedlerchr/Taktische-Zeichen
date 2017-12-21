@@ -1819,7 +1819,7 @@
           "template": "DrohneV11_Plain.svg",
           "unit": "SEK",
           "variants": {
-            "sek": "SEKDR",
+            "sek": "SEKDR"
           }
         },
         {
