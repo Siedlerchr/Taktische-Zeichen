@@ -591,7 +591,7 @@
           "variants": {
             "gebäude": "Feuerwehrgerätehaus"
           }
-        },
+        }
       ]
     },
     {
@@ -713,6 +713,18 @@
           "rettungshund": true,
           "variants": {
             "truppführer": "RescuedogLeader"
+          }
+        },
+        {
+          "name": "UNIT_AMBULANCE_DOG",
+          "template": "Person.svg",
+          "color_primary": "#FFFFFF",
+          "color_secondary": "#000000",
+          "text_color": "#000000",
+          "stroke_color": "#000000",
+          "rettungshund": true,
+          "variants": {
+            "": "UNIT_AMBULANCE_DOG"
           }
         }
       ]
@@ -896,7 +908,7 @@
           "unit": "RHF",
           "two_wheels": true,
           "variants": {
-             "rhf": "RHF"
+            "rhf": "RHF"
           }
         }
       ]
@@ -1039,7 +1051,7 @@
         {
           "name": "TFMB",
           "template": "Fahrzeug.svg",
-          "two_wheels":true,
+          "two_wheels": true,
           "variants": {
             "tfmb": "TFMB"
           }
