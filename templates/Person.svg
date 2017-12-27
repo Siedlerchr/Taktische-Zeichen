@@ -191,12 +191,29 @@
 	{{/if}}
 
 	{{#if rettungshund}}
-	 <path
-     id="path4"
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-opacity:1"
-     d="m 106.77105,99.54739 c -2.38543,8.32536 -4.77004,16.65021 -7.15548,24.97555 4.7779,-0.008 9.55539,-0.016 14.33328,-0.0242 l -7.1778,-24.95134 z m 47.40115,2.89965 -7.4612,22.5821 7.4612,-22.5821 z m -40.07392,21.87231 32.74412,0 -32.74412,0 z m 32.90042,0.17057 -9.08262,25.87462 18.36532,-0.18818 -9.2827,-25.68644 z m -32.9468,0.37195 -9.08261,25.87461 18.36533,-0.18817 -9.28272,-25.68644 z" />
-	{{/if}}
 
+	  <path
+	     id="path4154"
+	     d="m 99.156668,153.8798 c 3.886292,-8.31957 7.772592,-16.63913 11.658882,-24.95869 3.9722,8.25915 7.94441,16.5183 11.9166,24.77746"
+	     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+	  <path
+	     id="path4154-3"
+	     d="m 140.4436,155.90254 c 4.14325,-9.10566 8.28649,-18.21133 12.42973,-27.31699 4.23483,9.03954 8.46966,18.07909 12.70448,27.11863"
+	     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+	  <path
+	     id="path4146-6"
+	     d="m 152.74149,129.08296 c 3.19261,-7.26093 6.38522,-14.52187 9.57783,-21.7828"
+	     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+	  <path
+	     id="path4233"
+	     d="m 110.68367,128.57085 c -6.13353,0.008 -12.267063,0.0158 -18.400593,0.0237 3.062246,-8.03062 6.124482,-16.06126 9.186723,-24.0919 3.07129,8.02275 6.14258,16.04548 9.21387,24.06823 z"
+	     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+	  <path
+	     id="path8174"
+	     d="m 110.87567,128.39753 42.03454,0"
+	     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+
+	{{/if}}
 
 	{{#if unit}}
 	{{#if font_size}}

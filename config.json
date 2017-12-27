@@ -657,7 +657,8 @@
           "variants": {
             "gruppenführer": "Gruppenführer Sanitätsgruppe",
             "truppführer": "Truppführer Sanitätstrupp",
-            "zugführer": "Zugführer Sanitätszug"
+            "zugführer": "Zugführer Sanitätszug",
+            "": "UNIT_AMBULANCE"
           }
         },
         {
@@ -897,6 +898,15 @@
           "variants": {
             "hubschrauber": "RHC"
           }
+        },
+        {
+          "name": "RHF",
+          "template": "Fahrzeug.svg",
+          "unit": "RHF",
+          "two_wheels": true,
+          "variants": {
+             "rhf": "RHF"
+          }
         }
       ]
     },
@@ -1020,10 +1030,10 @@
           }
         },
         {
-          "name": "Dekon-P",
+          "name": "DeKon-P",
           "template": "Fahrzeug.svg",
           "variants": {
-            "dekonp": "Dekon-P"
+            "dekonp": "DeKon-P"
           }
         },
         {
@@ -1038,6 +1048,7 @@
         {
           "name": "TFMB",
           "template": "Fahrzeug.svg",
+          "two_wheels":true,
           "variants": {
             "tfmb": "TFMB"
           }

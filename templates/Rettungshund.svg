@@ -1,5 +1,54 @@
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="256" height="256">
-<path d="M 83.171875 96.279297 C 77.746782 111.05564 72.323537 125.8311 66.898438 140.60742 C 77.764645 140.59292 88.629887 140.57895 99.496094 140.56445 L 83.171875 96.279297 z M 190.97461 101.42578 L 174.00586 141.50586 L 190.97461 101.42578 z M 99.835938 140.24609 L 174.30469 140.24609 L 99.835938 140.24609 z M 174.66016 140.54883 L 154.00391 186.47266 L 195.77148 186.13867 L 174.66016 140.54883 z M 99.730469 141.20898 L 79.074219 187.13281 L 120.8418 186.79883 L 99.730469 141.20898 z "
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-opacity:1"></path>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg2"
+   height="256"
+   width="256"
+   version="1.1">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs13" />
+  <g
+     id="layer1"
+     transform="matrix(0.6870735,0,0,1.0113915,-61.112816,-62.273399)">
+    <g
+       id="g8195"
+       transform="translate(26.839232,-80.718287)">
+      <path
+         id="path4154"
+         d="m 167.83907,313.64089 c 10.66532,-15.10928 21.33064,-30.21855 31.99596,-45.32782 10.90107,14.99956 21.80215,29.99912 32.70322,44.99868"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-opacity:1" />
+      <path
+         id="path4154-3"
+         d="m 282.48223,314.04412 c 10.72688,-14.59955 21.45379,-29.1991 32.18065,-43.79867 10.96402,14.49354 21.92802,28.98708 32.89206,43.48064"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4.56310272;stroke-opacity:1" />
+      <path
+         id="path4146-6"
+         d="m 314.89412,268.60702 c 8.7616,-13.18668 17.52321,-26.37336 26.28483,-39.56004"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-opacity:1" />
+      <path
+         id="path4233"
+         d="m 199.4731,267.67696 c -16.8325,0.0143 -33.66501,0.0287 -50.49751,0.043 8.40385,-14.58453 16.80767,-29.16908 25.21151,-43.75362 8.42866,14.57021 16.85734,29.14041 25.286,43.71062 z"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-opacity:1" />
+      <path
+         id="path8174"
+         d="m 200,267.3622 115.35714,0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
 </svg>

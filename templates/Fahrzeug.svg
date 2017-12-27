@@ -283,6 +283,30 @@
 
  {{/if}}
 
+
+{{#if rhf}}
+ <path
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.50555801;stroke-opacity:1"
+     d="m 63.879553,180.03313 c 7.3752,-10.74034 14.750391,-21.48069 22.125591,-32.22101 7.538226,10.66234 15.076456,21.32469 22.614676,31.98704"
+     id="path4154" />
+  <path
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.04892802;stroke-opacity:1"
+     d="m 143.08639,180.37192 c 6.7255,-10.39591 13.451,-20.79183 20.17648,-31.18777 6.87417,10.32043 13.74833,20.64088 20.62251,30.96132"
+     id="path4154-3" />
+  <path
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.34084964;stroke-opacity:1"
+     d="m 163.40786,148.01748 c 5.4933,-9.38986 10.98661,-18.77971 16.47993,-28.16956"
+     id="path4146-6" />
+  <path
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.50555801;stroke-opacity:1"
+     d="m 85.754867,147.35994 c -11.639874,0.0102 -23.279769,0.0203 -34.919645,0.0306 5.811362,-10.36733 11.622706,-20.73468 17.434068,-31.10201 5.828523,10.35715 11.657055,20.71429 17.485577,31.07144 z"
+     id="path4233" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.50555801;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 86.119226,147.13619 79.770874,0"
+     id="path8174" />
+ {{/if}}
+
 	{{#if rettungswesen}}
 	<path d="M10,128 l236,0 M128,192 l0,-110" fill="none" stroke-width="5" stroke="{{ stroke_color }}" />
 	<text font-family="Roboto Slab Bold" font-size="200%" fill="{{ color_text }}" dominant-baseline="text-before-edge" text-anchor="start" x="22" y="85">{{ unit }}</text>
