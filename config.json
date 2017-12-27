@@ -592,15 +592,6 @@
             "gebäude": "Feuerwehrgerätehaus"
           }
         },
-        {
-          "name": "Custom_1",
-          "color_primary": "none",
-          "template": "Gebäude.svg",
-          "unit": "Fw",
-          "variants": {
-            "gebäude": "CUSTOM_1"
-          }
-        }
       ]
     },
     {
