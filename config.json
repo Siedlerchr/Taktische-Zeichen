@@ -269,6 +269,30 @@
           "variants": {
             "versorgungstrupp": "FGr Logistik - Versorgungstrupp"
           }
+        },
+        {
+          "name": "Technischer Verband",
+          "template": "Einheit.svg",
+          "unit": "",
+          "variants": {
+            "verband": "Technischer Verband"
+          }
+        },
+        {
+          "name": "Technische Gruppe",
+          "template": "Einheit.svg",
+          "unit": "",
+          "variants": {
+            "group": "Technische Gruppe"
+          }
+        },
+        {
+          "name": "Technischer Zug",
+          "template": "Einheit.svg",
+          "unit": "",
+          "variants": {
+            "platoon": "Technischer Zug"
+          }
         }
       ]
     },
@@ -819,13 +843,30 @@
           }
         },
         {
-          "name": "Technik und Sicherheit",
+          "name": "Rettungswesen Verband",
           "template": "Einheit.svg",
-          "technik_und_sicherheit": true,
+          "unit": "",
+          "rettungswesen": true,
           "variants": {
-            "group": "Gruppe Technik und Sicherheit",
-            "squad": "Trupp Technik und Sicherheit",
-            "platoon": "Zug Technik und Sicherheit"
+            "verband": "Rettungswesen Verband"
+          }
+        },
+        {
+          "name": "Rettungswesen Gruppe",
+          "template": "Einheit.svg",
+          "unit": "",
+          "rettungswesen": true,
+          "variants": {
+            "group": "Rettungswesen Gruppe"
+          }
+        },
+        {
+          "name": "Rettungswesen Zug",
+          "template": "Einheit.svg",
+          "unit": "",
+          "rettungswesen": true,
+          "variants": {
+            "platoon": "Rettungswesen Zug"
           }
         }
       ]
@@ -1195,6 +1236,33 @@
           "template": "Dekontaminationsgruppe.svg",
           "variants": {
             "abc_zug": "Gefahrstoffzug - ABC-Zug"
+          }
+        },
+        {
+          "name": "Feuerwehr Verband",
+          "template": "Löschzug.svg",
+          "unit": "",
+          "löschzug" :true,
+          "variants": {
+            "verband": "Feuerwehr Verband"
+          }
+        },
+        {
+          "name": "Feuerwehr Gruppe",
+          "template": "Löschzug.svg",
+          "unit": "",
+          "löschzug" :true,
+          "variants": {
+            "group": "Feuerwehr Gruppe"
+          }
+        },
+        {
+          "name": "Feuerwehr Zug",
+          "template": "Löschzug.svg",
+          "unit": "",
+          "löschzug" :true,
+          "variants": {
+            "platoon": "Feuerwehr Zug"
           }
         }
       ]
@@ -1801,6 +1869,30 @@
           "unit": "Zoll",
           "variants": {
             "bpol": "Einheit des Zoll"
+          }
+        },
+        {
+          "name": "Polizei Verband",
+          "template": "Einheit.svg",
+          "unit": "",
+          "variants": {
+            "verband": "Polizei Verband"
+          }
+        },
+        {
+          "name": "Rettungswesen Gruppe",
+          "template": "Einheit.svg",
+          "unit": "",
+          "variants": {
+            "group": "Polizei Gruppe"
+          }
+        },
+        {
+          "name": "Polizei Zug",
+          "template": "Einheit.svg",
+          "unit": "",
+          "variants": {
+            "platoon": "Polizei Zug"
           }
         }
       ]
