@@ -577,7 +577,7 @@
           "template": "Fahrzeug.svg",
           "unit": "ASF",
           "variants": {
-            "two_wheels": "ASF"
+            "three_wheels": "ASF"
           }
         }
       ]
