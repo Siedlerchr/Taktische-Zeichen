@@ -1504,6 +1504,15 @@
             "trailer": "Anhänger",
             "none": "Fahrzeug",
             "defekt": "VEHICLE_DEFECT"
+
+          }
+        },
+        {
+          "name": "VEHICLE_DEFECT",
+          "template": "Fahrzeug.svg",
+          "defekt": true,
+          "variants": {
+            "two_wheels": "VEHICLE_DEFECT"
           }
         },
         {
