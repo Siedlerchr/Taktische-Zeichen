@@ -1503,7 +1503,7 @@
             "container": "Abrollbehälter, Container",
             "trailer": "Anhänger",
             "none": "Fahrzeug",
-            "defekt": "VEHICLE_DEFECT"
+            "defekt": "DEFECT_VEHICLE"
 
           }
         },
@@ -1512,7 +1512,7 @@
           "template": "Fahrzeug.svg",
           "defekt": true,
           "variants": {
-            "two_wheels": "VEHICLE_DEFECT"
+            "two_wheels": "DEFECT_VEHICLE"
           }
         },
         {
